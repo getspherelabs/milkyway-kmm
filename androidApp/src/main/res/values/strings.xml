@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="explore_the_universe">Explore the universe</string>
+    <string name="journey_with_cosmo">Journey through the cosmos with our</string>
+    <string name="get_started">Get Started</string>
+    <string name="i_have_already_account">I have already account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email Address</string>
+    <string name="your_name">Your name</string>
+    <string name="password">Password</string>
+</resources>

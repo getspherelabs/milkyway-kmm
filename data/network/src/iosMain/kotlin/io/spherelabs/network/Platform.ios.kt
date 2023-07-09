@@ -1,4 +1,4 @@
-package io.spherelabs.milkyway
+package io.spherelabs.network
 
 import platform.UIKit.UIDevice
 
