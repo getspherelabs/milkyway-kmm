@@ -1,4 +1,4 @@
-package io.spherelabs.milkyway.android
+package io.spherelabs.cosmo.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
