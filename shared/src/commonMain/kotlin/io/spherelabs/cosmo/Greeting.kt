@@ -1,4 +1,4 @@
-package io.spherelabs.milkyway
+package io.spherelabs.cosmo
 
 class Greeting {
     private val platform: Platform = getPlatform()
