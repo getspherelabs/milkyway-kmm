@@ -180,7 +180,5 @@ fun OnboardingScreen(
 @Preview
 @Composable
 fun OnboardingPreview() {
-    Surface {
-        //OnboardingScreen()
-    }
+
 }
