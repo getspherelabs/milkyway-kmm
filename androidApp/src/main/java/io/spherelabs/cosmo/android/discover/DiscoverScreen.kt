@@ -36,6 +36,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.compose.rememberNavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import io.spherelabs.cosmo.android.component.RoundedImage
 import io.spherelabs.milkyway.android.R
 
 @Composable
@@ -106,9 +107,7 @@ fun TopDiscover(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.End
     ) {
-        UserImageDiscover(
-            url = url
-        )
+        RoundedImage(imageUrl = url)
         Spacer(modifier = modifier.width(8.dp))
         Text(
             text = name,
@@ -198,26 +197,6 @@ fun PopularTextStars(
             color = colorResource(id = R.color.white)
         )
     }
-}
-
-@Composable
-fun UserImageDiscover(
-    modifier: Modifier = Modifier,
-    url: String
-) {
-    AsyncImage(
-        model = ImageRequest.Builder(LocalContext.current)
-            .data(url)
-            .crossfade(true)
-            .build(),
-        placeholder = painterResource(R.drawable.vr_planet),
-        contentDescription = null,
-        contentScale = ContentScale.Crop,
-        modifier = Modifier
-            .size(48.dp)
-            .clip(CircleShape)
-            .border(6.dp, Color(0xff63219d), CircleShape)
-    )
 }
 
 
